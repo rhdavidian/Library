@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h2>My Library</h2>
+
+    <div class="entireGrid">
+
+        <div class="leftGrid">
+            <div class="addBookTile">
+                <div class="label">Title of Book:</div>
+                <input type="text" id="title" placeholder="Title">
+                <div class="label">Author:</div>
+                <input type="text" id="author" placeholder="Jane Smith">
+                <div class="label">Number of Pages:</div>
+                <input type="number" id="pages" placeholder="99">
+                <div class="label">Have You Read This Book?:</div>
+                <div class="label radio"></div>
+                    <input type="text" id="read" placeholder="Yes/No">
+                    <!-- <span><input type="radio" id="read" value="yes"> Yes</span>
+                    <span><input type="radio" id="unread" value-="no"> No</span> -->
+                <button class="add" onclick="addBook()">Add Book</button>
+            </div>
+        </div>
+    
+        <div class="rightGrid"></div>
+      
+    </div>
+    <script src="version3.js"></script>
+</body>
+</html>
